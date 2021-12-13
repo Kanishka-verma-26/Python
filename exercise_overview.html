@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise Overview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="exercise_overvier.css">
+</head>
+<body>
+<div class="container"><br>
+    <h1 align="center">Exercise - 1</h1>
+        <div class="jumbotron">
+            <h4>1) Given a string:</h4>
+            <h4>s="django"</h4>
+            <ul>use indexing to print out the following :</ul>
+            <li>'d'</li>
+            <li>'o'</li>
+            <li>'djan'</li>
+            <li>'jan'</li>
+            <li>'go'</li>
+            <li>use indexing to reverse the string</li>
+            <a href="string_indexing.py">Solution</a>
+        </div>
+        <div class="jumbotron">
+            <h4>2) Given this nested list:</h4>
+            <h4>l = [3,7,[1,4,'hello']]</h4>
+            <h4>Reassign "hello" to the "goodbye"</h4>
+            <a href="reassignment.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>3) Using keys and indexing, grab the 'hello' from the following dictionaries:</h4>
+            <ul>
+                <li>d1 = {'simple_key' : 'hello'}</li>
+                <li>d2 = {'k1' : {'k2' : 'hello'}}</li>
+                <li>d3 = {'k1' : [{'nest_key' : ['this is deep' , ['hello']]}]}</li>
+
+            </ul>
+            <a href="grab_hello.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>4) Use a set to find the unique values of the list below:</h4>
+            <h4>myList = [1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3]</h4>
+            <a href="unique_vals.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>5) You are given two variables:</h4>
+            <ul>
+                <li> age = 4</li>
+                <li>name = "Sammy"</li>
+            </ul>
+            <h4>use print formatting to print the following string : </h4>
+        <h5><em>"Hello my dog's name is Sammy and he is 4 years old"</em></h5>
+            <a href="print_formatting.py">Solution</a>
+        </div>
+    <h1 align="center">Exercise - 2</h1>
+    <div class="jumbotron">
+            <h4>1) Given a list of integers, return True if the sequence of numbers 1,2,3 appears in the list somewhere:</h4>
+            <ul>
+                <li> arrChk([1,1,2,3,1]) -> True</li>
+                <li> arrChk([1,1,2,4,1]) -> False</li>
+                <li> arrChk([1,1,2,1,2,3]) -> True</li>
+
+            </ul>
+            <a href="sequence_in_list.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>2) Given a string, return a new string made of every other character starting with the first, so "Hello" yields "Hlo".</h4>
+            <ul> Examples:
+                <li> strBits("Hello") -> "Hlo"</li>
+                <li> strBits("Hi") -> "H"</li>
+                <li> strBits("Heeololeo") -> "Hello"</li>
+
+            </ul>
+            <a href="every_other_char.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>3) Given 2 strings, return True if either of the strings appears at the very end of the other string, ignoring upper/lower case differences (i.e. in other words, the computation should not be "case sensitive").</h4>
+            <ul> Examples:
+                <li> end_other("Hiabc", "abc") -> True</li>
+                <li> end_other("AbC", "HiaBc") -> True</li>
+                <li> end_other("abc", "abXabc") -> True</li>
+
+            </ul>
+            <a href="str_at_end.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>4) Given a strings, return a string where for every char in the original, there are two chars.</h4>
+            <ul> Examples:
+                <li> double_Char("The") -> TThhee</li>
+                <li> double_Char("AAbb") -> AAAAbbbb</li>
+                <li> double_Char("Hi-There") -> HHii--TThheerree</li>
+
+            </ul>
+            <a href="doubling_char.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>5) Given 3 int values, a b c, return their sum. However, if any of the values is a teen -- in the range 13-19 inclusive -- then that value counts as 0, excepts 15 and 16 do not count as a teens. Write a separate helper "def fix_teen(n) :" that takes in an int value and returns that value fixed for the teen rule.</h4>
+        <h5>In this way, you avoid repeating the teen code 3 times i.e. decomposition. Define the helper below and at the same indent level as the main no_teen_sum(). Again, you will have two functions for this problem!</h5>
+        <ul> Examples:
+                <li> no_teen_sum(1,2,3) -> 6</li>
+                <li> no_teen_sum(2,13,1) -> 3</li>
+                <li> no_teen_sum(2,1,14) -> 3</li>
+
+            </ul>
+            <a href="no_teen_sum.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>6) Return the numbers of even integers in the given array.</h4>
+        <ul> Examples:
+                <li> print(count_even([2,1,2,3,4]))</li>
+                <li> print(count_even([2,2,0]))</li>
+                <li> print(count_even([1,3,5]))</li>
+
+            </ul>
+            <a href="even_ints.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>CODE CRACKING GAME!!!!!!!!!!!</h4>
+            <a href="game.py">Solution</a>
+        </div>
+    <div class="jumbotron">
+            <h4>CARD WAR GAME!!!!!!!!!!!</h4>
+            <a href="card_war.py">Solution</a>
+        </div>
+</div>
+</body>
+</html>
